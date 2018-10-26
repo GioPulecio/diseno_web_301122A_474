@@ -1,0 +1,108 @@
+
+.container{
+  border: 3px solid yellow;
+  position: relative;
+}
+
+/********************CCS DE LA CABECERA***************************/
+body{
+    background: transparent;
+    color: black;
+    font-family:'Open Sans', 'sans-serif';
+}
+
+
+
+#cabecera{
+  background: #333;  /*Color de la cabecera*/
+  color: white;
+  height: 80px;
+}
+#cabecera a{
+  color: white; /*Color de las letras en la cabecera*/
+}
+nav {
+  float: right;  /*posicionar a la derecha.*/
+}
+  nav ul {
+    margin: 0;  /* Posicionar al la parte superior */
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+  }
+  
+   nav ul li {
+    display: inline-block; /* Poner el en fila cada seccion*/ 
+    line-height: 80px;
+   }
+      
+   nav ul li a {
+    display: block;  /* Decorar el bloque*/
+    padding: 0 10px;
+    text-decoration: none;
+  }
+      
+  nav ul li a:hover {
+    background: #0b76a6;  /*Elejir color del bloque*/
+  }
+
+
+  /*div#container  {    /*Aplicar margenes a la cabecera
+ width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden; 
+
+}*/
+/******************CSS DE LA CABECERA*****************************/
+
+/*********************ASIDE********************************/
+
+
+
+#aside-content { 
+    background-color: #333;
+    
+    float: left;
+    border: 1px solid black;
+    width: 21.8%;
+    border: 1px solid black;
+}
+
+aside h1{
+font-family:'Open Sans', 'sans-serif';
+color: white;
+font-size: 25px;
+
+}
+/*******************FIN  ASIDE********************************/
+/*********************SECTION******************************/
+section {
+    width: 77%;
+    background: #ccc;
+    float: right;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+ 
+
+/*********************FIN SECTION******************************/
+
+/********************* FOOTER**********************************/
+
+footer{
+   width: 77%;
+    background: #333;
+    float: right;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+    height: 100%; 
+    width: 100%;
+    font-family:'Open Sans', 'sans-serif';
+color: white;
+font-size: 25px;
+
+}
+/********************* FIN FOOTER******************************/
