@@ -37,12 +37,25 @@
 		<img src="img/2.jpg" alt="logotipo" height="80" width="300" >
 		</a> <!-- / FIN enunciado en cabecera -->
  
-		<nav>
+		<nav class="menu-d">
 			<ul>
 				<li><a href="index.html">Inicio</a></li>
 				<li><a href="lecturas.html">Lecturas</a></li>
-				<li><a href="multimedia.html">Multimedia</a></li>
-				<li><a href="actividades.html">Actividades</a></li>
+				<li><a href="#">Multimedia</a>
+					<ul>
+						<li><a href="audio.html"">Audio </a></li>
+						<li><a href="video.html"">Video </a></li>
+					</ul>
+
+				</li>
+
+
+				<li><a href="actividades.html">Actividades</a>
+					<ul>
+						<li><a href="actividades2.html"">Actividades #2</a></li>
+						<li><a href="actividades3.html"">Actividades #3</a></li>
+					</ul>
+				</li>
 				<li><a href="autores.html">Autores</a></li>
 			</ul>
 		</nav><!-- / FIN nav -->
@@ -55,24 +68,92 @@
 
 <!------------------------ARTICLE - ARTICULOS------------------------------------ -->
 
-<section >
-	
-		<article>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-				
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>			
- 				
- 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
-			
-			
-		</article> <!-- /article -->
-	
 
-	</section> <!-- / #main-content -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Lectura 1')">Lectura 1</button>
+  <button class="tablinks" onclick="openCity(event, 'Lectura 2')">Lectura 2</button>
+  <button class="tablinks" onclick="openCity(event, 'Lectura 3')">Lectura 3</button>
+</div>
+
+<div id="Lectura 1" class="tabcontent">
+<img src="img/3.jpg	" alt="robo" height="200" width="400" >
+	
+  <h3>PHINSHING : ¿Que es? ¿Como combatirlo?</h3>
+
+  <p>Definicion : Se define como un tipo de delito destinado a estafas informaticas, que se realiza mediante ingenieria social para adquirir informacion personal o financiera  de forma fraudulenta.</p>
+  <p>Phisher : El estafador, conocido como phisher, se hace pasar por una persona o empresa de confianza en una aparente comunicación 			oficial electrónica, por lo común un correo electrónico, o algún sistema de mensajería instantánea o incluso utilizando también 		llamadas telefónicas.</p>
+  <p>Phishing en resdes sociales : Los sitios de Internet con fines sociales también se han convertido en objetivos para los phishers, dado 	que mucha de la información provista en estos sitios puede ser utilizada en el robo de identidad. Algunos experimentos han otorgado 	una tasa de éxito de un 90% en ataques phishing en redes sociales. A finales de 2006 un gusano informático se apropió de algunas 		páginas del sitio web MySpace logrando redireccionar los enlaces de modo que apuntaran a una página web diseñada para robar 			iformación de ingreso de los usuarios.</p>
+  <p>Daños Causados: Los daños causados por el phishing oscilan entre la pérdida del acceso al correo electrónico a pérdidas económicas 		sustanciales. Este tipo de robo de identidad se está haciendo cada vez más popular por la facilidad con que personas confiadas 			normalmente revelan información personal a los phishers, incluyendo números de tarjetas de crédito. </p>
+
+</div>
+
+<div id="Lectura 2" class="tabcontent">
+<img src="img/3.jpeg	" alt="virus" height="200" width="400" >
+  <h3>Tipo de virus Informaticos</h3>
+  <p>Tipos de virus informáticos residentes en memoria</p>
+  <p>Estos virus se alojan en la memoria del ordenador y se activan cuando el sistema operativo se ejecuta, infectando a todos los archivos que se abren. Permanecen allí incluso después de que se ejecute el código malicioso. Tienen control sobre la memoria del sistema y asignan bloques de memoria a través de los cuales ejecuta su propio código. Su objetivo es corromper archivos y programas cuando son abiertos, cerrados, copiados, renombrados, etc.</p> 
+  <p>Virus de acción directa</p>
+  <p>El objetivo principal de estos tipos de virus informáticos es replicarse y actuar cuando son ejecutados. Cuándo se cumple una condición específica, el virus se pondrán en acción para infectar a los ficheros en el directorio o carpeta que se especifica en el archivo autoexec.bat Este archivo de procesamiento por lotes está siempre en el directorio raíz del disco duro y carga ciertas operaciones cuando el ordenador arranca. El virus infecta uno tras otro todos los archivos que encuentra y que previamente ha seleccionado como sus víctimas. También es capaz de infectar dispositivos externos. Cada vez que se ejecuta el código, estos tipos de virus informáticos cambian su ubicación para infectar nuevos archivos, pero generalmente se encuentra en el directorio raíz del disco duro.</p>
+
  
+  <p>Virus de sobreescritura</p>
+  <p>Estos tipos de virus informáticos se caracterizan por el hecho de que borran la información contenida en los ficheros que infectan, haciéndolos parcial o totalmente inútiles. Una vez infectados, el virus reemplaza el contenido del fichero sin cambiar su tamaño. La única manera de limpiar un archivo infectado por un virus de sobreescritura es borrar el archivo completamente, perdiendo así el contenido original. Sin embargo, es muy fácil de detectar este tipo de virus ya que el programa original se vuelve inútil.</p>
+
+
+  <p>Virus de sector de arranque</p>
+  <p>Este tipo de virus afecta al sector de arranque del disco duro. Se trata de una parte crucial del disco en la que se encuentra la información que hace posible arrancar el ordenador desde disco.</p>
+
+ 
+
+ <p>Macro Virus</p>
+ <p>Los macro virus infectan archivos que se crean utilizando ciertas aplicaciones o programas que contienen macros como .doc, .xls, .pps, etc. Estos mini programas hacen que sea posible automatizar una serie de operaciones para que se realicen como si fuera una sola acción, ahorrando así al usuario tener que llevarlas a cabo una por una. Estos tipos de virus informáticos infectan automáticamente el archivo que contiene macros y también infectan las plantillas y los documentos que contienen el archivo. Suele ser un virus que llega por correo electrónico.</p>
+
+ 
+
+ <p>Virus polimórfico</p>
+ <p>Estos tipos de virus informáticos se encriptan o codifican de una manera diferente, utilizando diferentes algoritmos y claves de cifrado cada vez que infectan un sistema. Esto hace imposible que el software antivirus los encuentre utilizando búsquedas de cadena o firma porque son diferentes cada vez.</p>
+
+ 
+
+ <p>Virus fat</p>
+ <p>La tabla de asignación de archivos FAT es la parte del disco utilizada para almacenar toda la información sobre la ubicación de los archivos, el espacio disponible, el espacio que no se debe utilizar, etc. Estos tipos de virus informáticos pueden ser especialmente peligrosos ya que impiden el acceso a ciertas secciones del disco donde se almacenan archivos importantes. Los daños causados pueden ocasionar la pérdida de información de archivos individuales e incluso de directorios completos</p>
+
+ 
+
+ <p>Virus de secuencias de comandos web</p>
+ <p>Muchas páginas web incluyen código complejo para crear contenido interesante e interactivo. Este código es a menudo explotado por estos tipos de virus informáticos para producir ciertas acciones indeseables.</p>
+</div>
+
+<div id="Lectura 3" class="tabcontent">
+<img src="img/4.jpg	" alt="tipos de seguridad" height="200" width="400" >
+  <h3>Tipos de seguridad informatica</h3>
+  <p>Seguridad en RED</p>
+  <p>La seguridad de red se encarga de proteger toda la información que está accesible a través de internet (documentos, imágenes, datos bancarios) y que podría ser usada de forma malintencionada. Por tanto, este tipo de seguridad lucha contra las amenazas que existen en la red para prohibir el acceso a dichos datos a una persona no deseada. Las posibles amenazas son: virus, troyanos, phising, software espía, robo de datos, suplantación de identidad.</p>
+
+  <p>Seguridad de software</p>
+  <p>La seguridad de software se encarga de proteger las aplicaciones y el software de amenazas exteriores como pueden ser ataques maliciosos, virus, etc. El mecanismo más utilizado dentro de este tipo de seguridad son los programas antivirus, estos programas disponen de un archivo de virus que se actualiza automáticamente y es capaz de encontrar virus nuevos. La búsqueda de virus se realiza periódicamente en el equipo, también el propio usuario puede realizarla de forma manual cuando quiera. Otro software que también se utiliza son los cortafuegos, filtros antispam, software para filtrar contenidos y contra publicidad no deseada.</p>
+
+  <p>Seguridad de software</p>
+  <p>La seguridad del hardware se refiere a la protección de computadoras o dispositivos frente a intromisiones o amenazas. No solo hay que proteger el software sino que también el hardware que estamos utilizando en nuestras actividades diarias es importante y requiere protección. El método más utilizado es el manejo de cortafuegos o firewalls de hardware y servidores proxy. Existe otro método que emplea módulos de seguridad de hardware (HSM) que utilizan claves criptográficas para el cifrado,descifrado y autenticación en los sistemas. </p>
+
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
 
 
 
